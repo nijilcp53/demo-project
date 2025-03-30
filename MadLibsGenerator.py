@@ -53,6 +53,7 @@ def Story2(win):
 
             Label(tl, text='Story:',  wraplength=tl.winfo_width()).place(x=160, y=310)
             Label(tl, text=text,wraplength=tl.winfo_width()).place(x=0, y=330)
+            print("success")
     NewScreen = Toplevel(win, bg='red')
     NewScreen.title("Ambitions")
     NewScreen.geometry('500x500')
